@@ -1,0 +1,109 @@
+# -*- coding: utf-8 -*-
+#
+# Code released in the Public Domain. You can do whatever you want with this package.
+# Look at README file to see how to adapt this program.
+# Originally written by Pierre Métras <pierre@alterna.tv> for the OLPC XO laptop.
+#############################
+# Timewriter rules for French
+#############################
+
+_time_rules = """
+    time(h, 35) => hour1(h) moins vingt-cinq |
+    time(h, 40) => hour1(h) moins vingt |
+    time(h, 45) => hour1(h) moins le quart |
+    time(h, 50) => hour1(h) moins dix |
+    time(h, 55) => hour1(h) moins cinq |
+    time(h, m) => hour(h) min(m) |
+    hour(0) => minuit |
+    hour(1) => une heure |
+    hour(12) => midi |
+    hour(h) => number(h) heures |
+    hour1(0) => une heure |
+    hour1(1) => deux heures |
+    hour1(2) => trois heures |
+    hour1(3) => quatre heures |
+    hour1(4) => cinq heures |
+    hour1(5) => six heures |
+    hour1(6) => sept heures |
+    hour1(7) => huit heures |
+    hour1(8) => neuf heures |
+    hour1(9) => dix heures |
+    hour1(10) => onze heures |
+    hour1(11) => midi |
+    hour1(12) => treize heures |
+    hour1(13) => quatorze heures |
+    hour1(14) => quinze heures |
+    hour1(15) => seize heures |
+    hour1(16) => dix-sept heures |
+    hour1(17) => dix-huit heures |
+    hour1(18) => dix-neuf heures |
+    hour1(19) => vingt heures |
+    hour1(20) => vingt-et-une heures |
+    hour1(21) => vingt-deux heures |
+    hour1(22) => vingt-trois heures |
+    hour1(23) => minuit |
+    min(0) => |
+    min(1) => et une minute |
+    min(15) => et quart |
+    min(30) => et demie |
+    min(m) => et number(m) minutes |
+    number(1) => une |
+    number(2) => deux |
+    number(3) => trois |
+    number(4) => quatre |
+    number(5) => cinq |
+    number(6) => six |
+    number(7) => sept |
+    number(8) => huit |
+    number(9) => neuf |
+    number(10) => dix |
+    number(11) => onze |
+    number(12) => douze |
+    number(13) => treize |
+    number(14) => quatorze |
+    number(15) => quinze |
+    number(16) => seize |
+    number(17) => dix-sept |
+    number(18) => dix-huit |
+    number(19) => dix-neuf |
+    number(20) => vingt |
+    number(21) => vingt-et-une |
+    number(22) => vingt-deux |
+    number(23) => vingt-trois |
+    number(24) => vingt-quatre |
+    number(25) => vingt-cinq |
+    number(26) => vingt-six |
+    number(27) => vingt-sept |
+    number(28) => vingt-huit |
+    number(29) => vingt-neuf |
+    number(30) => trente |
+    number(31) => trente-et-une |
+    number(32) => trente-deux |
+    number(33) => trente-trois |
+    number(34) => trente-quatre |
+    number(35) => trente-cinq |
+    number(36) => trente-six |
+    number(37) => trente-sept |
+    number(38) => trente-huit |
+    number(39) => trente-neuf |
+    number(40) => quarante |
+    number(41) => quarante-et-une |
+    number(42) => quarante-deux |
+    number(43) => quarante-trois |
+    number(44) => quarante-quatre |
+    number(45) => quarante-cinq |
+    number(46) => quarante-six |
+    number(47) => quarante-sept |
+    number(48) => quarante-huit |
+    number(49) => quarante-neuf |
+    number(50) => cinquante |
+    number(51) => cinquante-et-une |
+    number(52) => cinquante-deux |
+    number(53) => cinquante-trois |
+    number(54) => cinquante-quatre |
+    number(55) => cinquante-cinq |
+    number(56) => cinquante-six |
+    number(57) => cinquante-sept |
+    number(58) => cinquante-huit |
+    number(59) => cinquante-neuf
+    """

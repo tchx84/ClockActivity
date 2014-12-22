@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+[
+  <!ENTITY fill_color "#FFFFFF">
+  <!ENTITY stroke_color "#000000">
+]>
+<svg contentScriptType="text/ecmascript" width="55px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" zoomAndPan="magnify" contentStyleType="text/css" height="55px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <circle fill="&fill_color;" r="22.5" stroke-width="3.5" cx="27.5" cy="27.5" stroke="&stroke_color;"/>
+    <line fill="none" x1="27.5" x2="27.5" y1="27.5" y2="6" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="36" y1="27.5" y2="47" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="20" y1="27.5" y2="48" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="5" y1="27.5" y2="23" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="13" y1="27.5" y2="9" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="8" y1="27.5" y2="38" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="49" y1="27.5" y2="23" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="42" y1="27.5" y2="10" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line fill="none" x1="27.5" x2="47" y1="27.5" y2="37" stroke="&stroke_color;" stroke-width="3.5"/>
+    <polygon fill="&stroke_color;" points="6,23 27.5,27.5 8,38" stroke="&stroke_color;"/>
+</svg>

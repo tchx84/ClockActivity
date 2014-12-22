@@ -1,0 +1,10 @@
+[Activity]
+name = Clock
+summary = Do you know the time? Now you do! Check out all the different ways you can make your clock look too!
+bundle_id = tv.alterna.Clock
+exec = sugar-activity clock.ClockActivity
+icon = activity-clock
+activity_version = 15
+host_version = 1
+show_launcher = yes
+license=Public Domain

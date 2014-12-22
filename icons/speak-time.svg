@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+[
+  <!ENTITY fill_color "#FFFFFF">
+  <!ENTITY stroke_color "#000000">
+]>
+<svg contentScriptType="text/ecmascript" width="55px" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" zoomAndPan="magnify" contentStyleType="text/css" height="55px" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <ellipse fill="&fill_color;" rx="10" cx="20.0" ry="10" cy="40.0" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line stroke-linecap="round" x1="20" x2="20" y1="35" y2="41" stroke="&stroke_color;" stroke-width="3.5"/>
+    <line stroke-linecap="round" x1="20" x2="24" y1="41" y2="41" stroke="&stroke_color;" stroke-width="3.5"/>
+    <path fill="&fill_color;" stroke-width="3.5" d="M 33.25 24.75 C 32.625 20.375 32.625 20.375 32.625 20.375 Q 25.5 21.375 16.0 20.875 Q 14.375 21.125 8.875 18.875 Q 6.125 17.125 5.875 15.5 Q 5.125 11.5 7.125 8.125 Q 8.125 6.125 11.125 5.0 Q 11.875 4.875 15.75 4.375 Q 20.0 4.125 26.125 3.875 Q 30.875 4.0 36.75 4.25 Q 37.25 4.25 42.375 5.25 Q 46.375 6.625 47.875 8.625 C 48.625 9.5 48.75 10.875 48.5 13.375 Q 48.625 14.75 47.375 16.75 Q 46.5 18.0 43.375 19.375 Q 41.875 19.625 39.75 19.875 C 37.125 19.625 42.25 29.25 34.125 31.75 z" stroke-linejoin="round" stroke-linecap="round" stroke="&stroke_color;"/>
+</svg>

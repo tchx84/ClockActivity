@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-02 00:32-0400\n"
+"PO-Revision-Date: 2012-08-23 03:43+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+# Warum ist das fraglich?
+#. TRANS: "name" option from activity.info file
+#: clock.py:239
+msgid "Clock"
+msgstr "Uhr"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid ""
+"Do you know the time? Now you do! Check out all the different ways you can "
+"make your clock look too!"
+msgstr ""
+
+#. TRANS: Title of the activity
+#: clock.py:128
+msgid "What Time Is It?"
+msgstr "Wie spät ist es?"
+
+#. TRANS: The format used when writing the time in full
+#. letters.  You must take care to use a font size large enough
+#. so that kids can read it easily, but also small enough so
+#. that all times combination fit on the screen, even when the
+#. screen is rotated.  Pango markup:
+#. http://www.pygtk.org/docs/pygtk/pango-markup-language.html
+#: clock.py:136
+#, python-format
+msgid "<markup><span lang=\"en\" font_desc=\"Sans 20\">%s</span></markup>"
+msgstr "<markup><span lang=\"de\" font_desc=\"Sans 20\">%s</span></markup>"
+
+#. TRANS: The format used to display the weekday and date
+#. (example: Tuesday 10/21/2008) We recommend to use the same
+#. font size as for the time display.  See
+#. http://docs.python.org/lib/module-time.html for available
+#: clock.py:144
+#, no-python-format
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans 20\"><span foreground=\"#B20008\">"
+"%A</span>, <span foreground=\"#5E008C\">%m</span>/<span foreground=\"#B20008"
+"\">%d</span>/<span foreground=\"#9A5200\">%Y</span></span></markup>"
+msgstr ""
+"<markup><span lang=\"de\" font_desc=\"Sans 20\"><span foreground=\"#B20008\">%"
+"A</span>, <span foreground=\"#5E008C\">%d</span>/<span foreground=\"#B20008\">%"
+"m</span>/<span foreground=\"#9A5200\">%Y</span></span></markup>"
+
+#: clock.py:270
+msgid "Simple Clock"
+msgstr "Einfache Uhr"
+
+#: clock.py:276
+msgid "Nice Clock"
+msgstr "Schöne Uhr"
+
+# Entspricht den Hinweisen zur Übersetzung. Hier geht es um das Zahlenformat.
+#: clock.py:282
+#, no-python-format
+#, no-python-format,
+msgid "Digital Clock"
+msgstr "Digitaluhr"
+
+#: clock.py:296
+msgid "Display time in full letters"
+msgstr "Zeige Uhrzeit in Worten"
+
+#: clock.py:302
+msgid "Display weekday and date"
+msgstr "Zeige Wochentag und Datum"
+
+#: clock.py:313
+msgid "Talking clock"
+msgstr "Sprechende Uhr"
+
+#: clock.py:319
+msgid "Grab the hands"
+msgstr ""
+
+#. TRANS: The format used to display the time for digital clock
+#. You can add AM/PM indicator or use 12/24 format, for example
+#. "%I:%M:%S %p".  See
+#. http://docs.python.org/lib/module-time.html for available
+#. strftime formats If the display of the time is moving
+#. horizontally, it means that the glyphs of the digits used in
+#. the font don't have the same width. Try to use a Monospace
+#: clock.py:751
+#, no-python-format
+#, no-python-format, fuzzy
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans,Monospace Bold 96\"><span "
+"foreground=\"#005FE4\">%I</span>:<span foreground=\"#00B20D\">%M</span>:"
+"<span foreground=\"#E6000A\">%S</span>%p</span></markup>"
+msgstr ""
+"<markup><span lang=\"de\" font_desc=\"Sans,Monospace Bold 48\"><span "
+"foreground=\"#005FE4\">%I</span>:<span foreground=\"#00B20D\">%M</span>:<span "
+"foreground=\"#E6000A\">%S</span>%p</span></markup>"
+
+#: clock.py:855
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span foreground=\"white"
+"\" background=\"black\"> AM </span><span foreground=\"lightgray\"> PM </"
+"span></span></markup>"
+msgstr ""
+
+#: clock.py:859
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span foreground="
+"\"lightgray\"> AM </span><span foreground=\"white\" background=\"black\"> PM "
+"</span></span></markup>"
+msgstr ""
+
+#. TRANS: The format of the font used to print hour
+#. numbers, from 1 to 12.
+#: clock.py:925
+#, python-format
+#, python-format, fuzzy
+msgid "<markup><span lang=\"en\" font_desc=\"Sans Bold 40\">%d</span></markup>"
+msgstr "<markup><span lang=\"en\" font_desc=\"Sans Bold 20\">%d</span></markup>"
+
+#. TRANS: The language pitch (range [0 - 99], default 50 for English)
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:30
+msgid "50"
+msgstr "50"
+
+#. TRANS: The diction speed, in average words per minute (range [80 - 390],
+#. default 170 for English).
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:38
+msgid "170"
+msgstr "170"
+
+#. TRANS: The pause duration between words, in units of 10 ms.
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:45
+msgid "0"
+msgstr "0"
+
+#. TRANS: The language and voice variant
+#. Look at http://espeak.sourceforge.net/commands.html for details, and
+#. http://espeak.sourceforge.net/languages.html to see if your language is supported.
+#: speaker.py:53
+msgid "en"
+msgstr "de"
+
+# (M.S.) Hier sind Regeln zu formulieren, vgl. etwa die spanische Übersetzung
+# (CJL) This string should look something like this English template, but with the words "o'clock" and the words after the arrows translated.  Do not translate min(1), hour(1), etc., those are internal names.  See Spanish string for another example.
+# http://translate.sugarlabs.org/es/honey/clock.po?item=12&view_mode=translate
+#. TRANS: The rules to print the time in the localized language.
+#.
+#. Example syntax:
+#. time(h, 15) => a quarter to hour(h) am_pm(h) |
+#. The left hand side of the rule defines a pattern with a variable 'h' and a
+#. value '15'.
+#. The right hand side, when applied, will use the text "a quarter to " and call
+#. the first rule matching hour(h) after substituting the variable 'h' by its value,
+#. and call the rule matching am_pm(h).
+#. Internal spaces are significant on the right side of a rule. In calls, all
+#. arguments which are not numbers are considered to be variables. The rule parser
+#. is very simple and will let many syntax errors go ignored.
+#.
+#. A rule ends with the character '|'.
+#. The character '_' is a anonymous variable.
+#. The character '#' can be used to concatenate two text fragments. For instance:
+#. plural(1) => |
+#. plural(_) => s |
+#. hour(h) => number(h) hour#plural(h) |
+#. Use '\#' to use a # character, for instance in a pango color
+#. tag like <span foreground="\#FF0055">
+#.
+#. You can put range conditions on firing a rule, with the syntax [var1 < var2] or
+#. [var1 < var2 < var3]. For instance:
+#. hours(h) [h < 12] => in the morning |
+#. hours(h) [12 < h < 18] => in the afternoon |
+#. hours(_) => in the night |
+#.
+#. These rules will be called with the root pattern "time(hour, minute)", with the
+#. variable 'hour' bound to the current hour and the variable 'minute' to the
+#. current minute.
+#. Order of rules is important. Rules are tried from first to last. So most precise
+#. rule must be placed first in the list.
+#.
+#. You can validate your set of rules by running the command line:
+#. python timewriter.py LANG
+#.
+#. You should use pango markup to respect the same colors as for the clock hands.
+#. Look at the README file from the activity for explanations on how to create
+#. rules.
+#: timewriter.py:204
+msgid "time(h, m) => What Time Is It?"
+msgstr ""
+"time(0, 0) => <span foreground=\"\\#005FE4\">hour(0)</span> |\n"
+"time(h, 0) => <span foreground=\"\\#005FE4\">hour(h)</span> Uhr am_pm(h) |\n"
+"time(h, m) [m < 31] => <span foreground=\"\\#00B20D\">min(m)</span> nach <span "
+"foreground=\"\\#005FE4\">min(30) hour1(h)</span> am_pm(h) |\n"
+"time(h, m) [31< m<40] => <span foreground=\"\\#00B20D\">min(m)</span> nach "
+"<span foreground=\"\\#005FE4\">hour1(h)</span> am_pm(h) |\n"
+"time(h, m) [41 < m] => <span foreground=\"\\#00B20D\">min(m)</span> vor <span "
+"foreground=\"\\#005FE4\">hour1(h)</span> am_pm(h) |\n"
+"min(1) => eine Minute |\n"
+"min(2) => zwei Minuten |\n"
+"min(3) => drei Minuten |\n"
+"min(4) => vier Minuten |\n"
+"min(5) => fünf Minuten |\n"
+"min(6) => sechs Minuten |\n"
+"min(7) => sieben Minuten |\n"
+"min(8) => acht Minuten |\n"
+"min(9) => neun Minuten |\n"
+"min(10) => zehn |\n"
+"min(11) => elf Minuten |\n"
+"min(12) => zwölf Minuten |\n"
+"min(13) => dreizehn Minuten |\n"
+"min(14) => vierzehn Minuten |\n"
+"min(15) => viertel |\n"
+"min(16) => sechzehn Minuten |\n"
+"min(17) => siebzehn Minuten |\n"
+"min(18) => achtzehn Minuten |\n"
+"min(19) => neunzehn Minuten |\n"
+"min(20) => zwanzig |\n"
+"min(21) => einundzwanzig Minuten |\n"
+"min(22) => zweiundzwnzig Minuten |\n"
+"min(23) => dreiundzwanzig Minuten |\n"
+"min(24) => vierundzwanzig Minuten |\n"
+"min(25) => fünfundzwanzig Minuten |\n"
+"min(26) => sechsundzwanzig Minuten |\n"
+"min(27) => siebenundzwanzig Minuten |\n"
+"min(28) => achtundzwanzig Minuten |\n"
+"min(29) => neunundzwanzig Minuten |\n"
+"min(30) => halb |\n"
+"min(31) => eine Minute |\n"
+"min(32) => zwei Minuten |\n"
+"min(33) => drei Minuten |\n"
+"min(34) => vier Minuten |\n"
+"min(35) => fünf |\n"
+"min(36) => sechs Minuten |\n"
+"min(37) => sieben Minuten |\n"
+"min(38) => acht Minuten |\n"
+"min(39) => neun Minuten |\n"
+"min(40) => zwanzig |\n"
+"min(41) => neunzehn Minuten |\n"
+"min(42) => achtzehn Minuten |\n"
+"min(43) => siebzehn Minuten |\n"
+"min(44) => sechzehn Minuten |\n"
+"min(45) => viertel |\n"
+"min(46) => vierzehn Minuten |\n"
+"min(47) => dreizehn Minuten |\n"
+"min(48) => zwölf Minuten |\n"
+"min(49) => elf Minuten |\n"
+"min(50) => zehn |\n"
+"min(51) => neun Minuten |\n"
+"min(52) => acht Minuten |\n"
+"min(53) => sieben Minuten |\n"
+"min(54) => sechs Minuten |\n"
+"min(55) => fünf Minuten |\n"
+"min(56) => vier Minuten |\n"
+"min(57) => drei Minuten |\n"
+"min(58) => zwei Minuten |\n"
+"min(59) => eine Minute |\n"
+"min(60) => sechzig Minuten |\n"
+"hour(0) => Mitternacht |\n"
+"hour(1) => Ein |\n"
+"hour(2) => Zwei |\n"
+"hour(3) => Drei |\n"
+"hour(4) => Vier |\n"
+"hour(5) => Fünf |\n"
+"hour(6) => Sechs |\n"
+"hour(7) => Sieben |\n"
+"hour(8) => Acht |\n"
+"hour(9) => Neun |\n"
+"hour(10) => Zehn |\n"
+"hour(11) => Elf |\n"
+"hour(12) => Zwölf |\n"
+"hour(13) => Ein |\n"
+"hour(14) => Zwei |\n"
+"hour(15) => Drei |\n"
+"hour(16) => Vier |\n"
+"hour(17) => Fünf |\n"
+"hour(18) => Sechs |\n"
+"hour(19) => Sieben |\n"
+"hour(20) => Acht |\n"
+"hour(21) => Neun |\n"
+"hour(22) => Zehn |\n"
+"hour(23) => Elf |\n"
+"hour1(0) => Eins |\n"
+"hour1(1) => Zwei |\n"
+"hour1(2) => Drei |\n"
+"hour1(3) => Vier |\n"
+"hour1(4) => Fünf |\n"
+"hour1(5) => Sechs |\n"
+"hour1(6) => Sieben |\n"
+"hour1(7) => Acht |\n"
+"hour1(8) => Neun |\n"
+"hour1(9) => Zehn |\n"
+"hour1(10) => Elf |\n"
+"hour1(11) => Zwölf |\n"
+"hour1(12) => Eins |\n"
+"hour1(13) => Zwei |\n"
+"hour1(14) => Drei |\n"
+"hour1(15) => Vier |\n"
+"hour1(16) => Fünf |\n"
+"hour1(17) => Sechs |\n"
+"hour1(18) => Sieben |\n"
+"hour1(19) => Acht |\n"
+"hour1(20) => Neun |\n"
+"hour1(21) => Zehn |\n"
+"hour1(22) => Elf |\n"
+"hour1(23) => Mitternacht |\n"
+"am_pm(h) [ h < 12] => |\n"
+"am_pm(_) =>"
+
+#~ msgid "Activity"
+#~ msgstr "Aktivität"
+
+#~ msgid "espeak-pitch"
+#~ msgstr "50"
+
+#~ msgid "espeak-speed"
+#~ msgstr "170"
+
+#~ msgid "espeak-wgap"
+#~ msgstr "1"
+
+#~ msgid "espeak-voice"
+#~ msgstr "de"

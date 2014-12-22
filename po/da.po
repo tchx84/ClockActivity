@@ -1,0 +1,357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-02 00:32-0400\n"
+"PO-Revision-Date: 2013-04-10 13:39+0200\n"
+"Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+#: clock.py:239
+msgid "Clock"
+msgstr "Ur"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid ""
+"Do you know the time? Now you do! Check out all the different ways you can "
+"make your clock look too!"
+msgstr ""
+"Véd du hvad klokken er? Nu gør du! Tjek også alle de forskellige måder, du "
+"kan ændre udseendet på dit ur!"
+
+#. TRANS: Title of the activity
+#: clock.py:128
+msgid "What Time Is It?"
+msgstr "Hvad er klokken?"
+
+#. TRANS: The format used when writing the time in full
+#. letters.  You must take care to use a font size large enough
+#. so that kids can read it easily, but also small enough so
+#. that all times combination fit on the screen, even when the
+#. screen is rotated.  Pango markup:
+#. http://www.pygtk.org/docs/pygtk/pango-markup-language.html
+#: clock.py:136
+#, python-format
+msgid "<markup><span lang=\"en\" font_desc=\"Sans 20\">%s</span></markup>"
+msgstr "<markup><span lang=\"da\" font_desc=\"Sans 20\">%s</span></markup>"
+
+# checked printf, we want the date like: 21/10/2008
+#. TRANS: The format used to display the weekday and date
+#. (example: Tuesday 10/21/2008) We recommend to use the same
+#. font size as for the time display.  See
+#. http://docs.python.org/lib/module-time.html for available
+#: clock.py:144
+#, no-python-format
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans 20\"><span foreground=\"#B20008\">"
+"%A</span>, <span foreground=\"#5E008C\">%m</span>/<span foreground=\"#B20008"
+"\">%d</span>/<span foreground=\"#9A5200\">%Y</span></span></markup>"
+msgstr ""
+"<markup><span lang=\"da\" font_desc=\"Sans 20\"><span foreground=\"#B20008\">%"
+"A</span>, <span foreground=\"#B20008\">%d</span>/<span foreground=\"#5E008C\">%"
+"m</span>/<span foreground=\"#9A5200\">%Y</span></span></markup>"
+
+#: clock.py:270
+msgid "Simple Clock"
+msgstr "Simpelt ur"
+
+#: clock.py:276
+msgid "Nice Clock"
+msgstr "Pænt ur"
+
+#: clock.py:282
+#, no-python-format
+msgid "Digital Clock"
+msgstr "Digitalt ur"
+
+#: clock.py:296
+msgid "Display time in full letters"
+msgstr "Vis tiden med bogstaver"
+
+#: clock.py:302
+msgid "Display weekday and date"
+msgstr "Vis ugedag og dato"
+
+#: clock.py:313
+msgid "Talking clock"
+msgstr "Talende ur"
+
+#: clock.py:319
+msgid "Grab the hands"
+msgstr "Grib hænderne"
+
+# checked printf, we use the 24 format
+#. TRANS: The format used to display the time for digital clock
+#. You can add AM/PM indicator or use 12/24 format, for example
+#. "%I:%M:%S %p".  See
+#. http://docs.python.org/lib/module-time.html for available
+#. strftime formats If the display of the time is moving
+#. horizontally, it means that the glyphs of the digits used in
+#. the font don't have the same width. Try to use a Monospace
+#: clock.py:751
+#, no-python-format
+#, no-python-format,
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans,Monospace Bold 96\"><span "
+"foreground=\"#005FE4\">%I</span>:<span foreground=\"#00B20D\">%M</span>:"
+"<span foreground=\"#E6000A\">%S</span>%p</span></markup>"
+msgstr ""
+"<markup><span lang=\"da\" font_desc=\"Sans,Monospace Bold 96\"><span "
+"foreground=\"#005FE4\">%H</span>:<span foreground=\"#00B20D\">%M</span>:<span "
+"foreground=\"#E6000A\">%S</span>%p</span></markup>"
+
+#: clock.py:855
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span foreground=\"white"
+"\" background=\"black\"> AM </span><span foreground=\"lightgray\"> PM </"
+"span></span></markup>"
+msgstr ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span foreground=\"white\" "
+"background=\"black\"> AM </span><span foreground=\"lightgray\"> PM "
+"</span></span></markup>"
+
+#: clock.py:859
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span foreground="
+"\"lightgray\"> AM </span><span foreground=\"white\" background=\"black\"> PM "
+"</span></span></markup>"
+msgstr ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span "
+"foreground=\"lightgray\"> AM </span><span foreground=\"white\" "
+"background=\"black\"> PM </span></span></markup>"
+
+#. TRANS: The format of the font used to print hour
+#. numbers, from 1 to 12.
+#: clock.py:925
+#, python-format
+#, python-format,
+msgid "<markup><span lang=\"en\" font_desc=\"Sans Bold 40\">%d</span></markup>"
+msgstr "<markup><span lang=\"da\" font_desc=\"Sans Bold 40\">%d</span></markup>"
+
+#. TRANS: The language pitch (range [0 - 99], default 50 for English)
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:30
+msgid "50"
+msgstr "50"
+
+#. TRANS: The diction speed, in average words per minute (range [80 - 390],
+#. default 170 for English).
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:38
+msgid "170"
+msgstr "170"
+
+#. TRANS: The pause duration between words, in units of 10 ms.
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:45
+msgid "0"
+msgstr "0"
+
+#. TRANS: The language and voice variant
+#. Look at http://espeak.sourceforge.net/commands.html for details, and
+#. http://espeak.sourceforge.net/languages.html to see if your language is supported.
+#: speaker.py:53
+msgid "en"
+msgstr "da"
+
+# Can foresee incorrect cases in Danish, though certainly not disabilitating.  "Half past two" can't be translated into Danish, as it should be [expressed in the Danish way] "Thirty minutes past two". I wonder how this has been solved in other GNOME/KDE applications. Numbers beyond twenty should perhaps be replaced by numbers in Danish.
+#. TRANS: The rules to print the time in the localized language.
+#.
+#. Example syntax:
+#. time(h, 15) => a quarter to hour(h) am_pm(h) |
+#. The left hand side of the rule defines a pattern with a variable 'h' and a
+#. value '15'.
+#. The right hand side, when applied, will use the text "a quarter to " and call
+#. the first rule matching hour(h) after substituting the variable 'h' by its value,
+#. and call the rule matching am_pm(h).
+#. Internal spaces are significant on the right side of a rule. In calls, all
+#. arguments which are not numbers are considered to be variables. The rule parser
+#. is very simple and will let many syntax errors go ignored.
+#.
+#. A rule ends with the character '|'.
+#. The character '_' is a anonymous variable.
+#. The character '#' can be used to concatenate two text fragments. For instance:
+#. plural(1) => |
+#. plural(_) => s |
+#. hour(h) => number(h) hour#plural(h) |
+#. Use '\#' to use a # character, for instance in a pango color
+#. tag like <span foreground="\#FF0055">
+#.
+#. You can put range conditions on firing a rule, with the syntax [var1 < var2] or
+#. [var1 < var2 < var3]. For instance:
+#. hours(h) [h < 12] => in the morning |
+#. hours(h) [12 < h < 18] => in the afternoon |
+#. hours(_) => in the night |
+#.
+#. These rules will be called with the root pattern "time(hour, minute)", with the
+#. variable 'hour' bound to the current hour and the variable 'minute' to the
+#. current minute.
+#. Order of rules is important. Rules are tried from first to last. So most precise
+#. rule must be placed first in the list.
+#.
+#. You can validate your set of rules by running the command line:
+#. python timewriter.py LANG
+#.
+#. You should use pango markup to respect the same colors as for the clock hands.
+#. Look at the README file from the activity for explanations on how to create
+#. rules.
+#: timewriter.py:204
+msgid "time(h, m) => What Time Is It?"
+msgstr ""
+"time(12, 0) => <span foreground=\"\\#005FE4\">hour(12)</span> |\n"
+"time(0, 0) => <span foreground=\"\\#005FE4\">hour(0)</span> |\n"
+"time(h, 0) => <span foreground=\"\\#005FE4\">hour(h)</span> am_pm(h) |\n"
+"time(h, m) [m < 31] => <span foreground=\"\\#00B20D\">min(m)</span> over <span "
+"foreground=\"\\#005FE4\">hour(h)</span> am_pm(h) |\n"
+"time(h, m) [30 < m] => <span foreground=\"\\#00B20D\">min(m)</span> i <span "
+"foreground=\"\\#005FE4\">hour1(h)</span> am_pm(h) |\n"
+"min(1) => et minut |\n"
+"min(2) => to minutter |\n"
+"min(3) => tre minutter |\n"
+"min(4) => fire minutter |\n"
+"min(5) => fem minutter |\n"
+"min(6) => seks minutter |\n"
+"min(7) => syv minutter |\n"
+"min(8) => otte minutter |\n"
+"min(9) => ni minutter |\n"
+"min(10) => ti minutter |\n"
+"min(11) => elleve minutter |\n"
+"min(12) => tolv minutter |\n"
+"min(13) => tretten minutter |\n"
+"min(14) => fjorten minutter |\n"
+"min(15) => et kvarter |\n"
+"min(16) => seksten minutter |\n"
+"min(17) => sytten minutter |\n"
+"min(18) => atten minutter |\n"
+"min(19) => nitten minutter |\n"
+"min(20) => tyve minutter |\n"
+"min(21) => enogtyve minutter |\n"
+"min(22) => toogtyve minutter |\n"
+"min(23) => treogtyve minutter |\n"
+"min(24) => fireogtyve minutter |\n"
+"min(25) => femogtyve minutter |\n"
+"min(26) => seksogtyve minutter |\n"
+"min(27) => syvogtyve minutter |\n"
+"min(28) => otteogtyve minutter |\n"
+"min(29) => niogtyve minutter |\n"
+"min(30) => halv |\n"
+"min(31) => niogtyve minutter |\n"
+"min(32) => otteogtyve minutter |\n"
+"min(33) => syvogtyve minutter |\n"
+"min(34) => seksogtyve minutter |\n"
+"min(35) => femogtyve minutter |\n"
+"min(36) => fireogtyve minutter |\n"
+"min(37) => treogtyve minutter |\n"
+"min(38) => toogtyve minutter |\n"
+"min(39) => enogtyve minutter |\n"
+"min(40) => tyve minutter |\n"
+"min(41) => nitten minutter |\n"
+"min(42) => atten minutter |\n"
+"min(43) => sytten minutter |\n"
+"min(44) => tretten minutter |\n"
+"min(45) => et kvarter |\n"
+"min(46) => fjorten minutter |\n"
+"min(47) => tretten minutter |\n"
+"min(48) => tolv minutter |\n"
+"min(49) => elleve minutter |\n"
+"min(50) => ti minutter |\n"
+"min(51) => ni minutter |\n"
+"min(52) => otte minutter |\n"
+"min(53) => syv minutter |\n"
+"min(54) => seks minutter |\n"
+"min(55) => fem minutter |\n"
+"min(56) => fire minutter |\n"
+"min(57) => tre minutter |\n"
+"min(58) => to minutter |\n"
+"min(59) => et minut |\n"
+"min(60) => tres minutter |\n"
+"hour(0) => midnat |\n"
+"hour(1) => en |\n"
+"hour(2) => to |\n"
+"hour(3) => tre |\n"
+"hour(4) => fire |\n"
+"hour(5) => fem |\n"
+"hour(6) => seks |\n"
+"hour(7) => syv |\n"
+"hour(8) => otte |\n"
+"hour(9) => ni |\n"
+"hour(10) => ti |\n"
+"hour(11) => elleve |\n"
+"hour(12) => middag |\n"
+"hour(13) => en |\n"
+"hour(14) => to |\n"
+"hour(15) => tre |\n"
+"hour(16) => fire |\n"
+"hour(17) => fem |\n"
+"hour(18) => seks |\n"
+"hour(19) => syv |\n"
+"hour(20) => otte |\n"
+"hour(21) => ni |\n"
+"hour(22) => ti |\n"
+"hour(23) => elleve |\n"
+"hour1(0) => en |\n"
+"hour1(1) => to |\n"
+"hour1(2) => tre |\n"
+"hour1(3) => fire |\n"
+"hour1(4) => fem |\n"
+"hour1(5) => seks |\n"
+"hour1(6) => syv |\n"
+"hour1(7) => otte |\n"
+"hour1(8) => ni |\n"
+"hour1(9) => ti |\n"
+"hour1(10) => elleve |\n"
+"hour1(11) => middag |\n"
+"hour1(12) => en |\n"
+"hour1(13) => to |\n"
+"hour1(14) => tre |\n"
+"hour1(15) => fire |\n"
+"hour1(16) => fem |\n"
+"hour1(17) => seks |\n"
+"hour1(18) => syv |\n"
+"hour1(19) => otte |\n"
+"hour1(20) => ni |\n"
+"hour1(21) => ti |\n"
+"hour1(22) => elleve |\n"
+"hour1(23) => midnat |\n"
+"am_pm(h) [ h < 12] => AM |\n"
+"am_pm(_) => PM"
+
+#~ msgid "Activity"
+#~ msgstr "Aktivitet"
+
+#~ msgid "Write Time"
+#~ msgstr "Skriv tidspunkt"
+
+#, no-python-format
+#~ msgid "Write Date"
+#~ msgstr "Skriv dato"
+
+#~ msgid "Toolbar"
+#~ msgstr "Værktøjsbjælke"
+
+#~ msgid "Hour Number"
+#~ msgstr "Timetal"
+
+#~ msgid "espeak-pitch"
+#~ msgstr "50"
+
+#~ msgid "espeak-speed"
+#~ msgstr "70"
+
+#~ msgid "espeak-wgap"
+#~ msgstr "1"
+
+#~ msgid "espeak-voice"
+#~ msgstr "da"

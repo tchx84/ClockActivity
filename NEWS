@@ -1,0 +1,24 @@
+A simple Clock face to know the time of the day, and eventually learn how to read it.
+
+20080129 1.0	- Initial creation of the Basic Clock.
+		- 3 display modes: simple, with hours ticks and date, nice clock face.
+
+20080321 2.0	- Added a digital clock with two views: basic and complete.
+		- Support context in gettext with custom function pgettext().
+		- Changed fonts as they could not display some characters in Portuguese. Use Pango to layout text now.
+		- Added a color code to help learning time. Made clock hands a bit wider too.
+		- A few bugs solved and made code more complex to read!
+
+20080923 3.0	- Added license information required by the new 8.2 activity bundle format.
+
+20080925 4.0	- When the activity is not active, we don't update the clock to save CPU resources.
+
+20081022 5.0	- Refactoring of the code: cairo drawing has been removed and we use Gdk now. The big drawing method has been splitted in small and easy to understand methods.
+		- Display the date and weekday combined out of the clock face.
+		- Use XO approved colors for better contrast.
+		- New toolbar instead of the hidden right button. Only 3 display modes have been kept for the clock faces: simple, nice and digital.
+		- New activity icon.
+		- Write the current time in full letters, with the same colors code for the clock hands.
+		- Inference engine to translate a numeric time to letters. Three set of localized rules, for English, French and Spanish have been provided as model for translatorsand procedures to test them.
+		- Speak aloud the current time through espeak TTS.
+		- Most methods are now private.

@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-27 22:49-0400\n"
+"PO-Revision-Date: 2011-07-14 19:32+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+
+#. TRANS: Title of the activity
+#: clock.py:98
+msgctxt "Activity"
+msgid "What Time Is It?"
+msgstr ""
+
+#. TRANS: The format used when writing the time in full letters.
+#. You must take care to use a font size large enough so that kids can read it easily,
+#. but also small enough so that all times combination fit on the screen, even
+#. when the screen is rotated.
+#. Pango markup: http://www.pygtk.org/docs/pygtk/pango-markup-language.html
+#: clock.py:105
+#, python-format
+msgctxt "Write Time"
+msgid "<markup><span lang=\"en\" font_desc=\"Sans 20\">%s</span></markup>"
+msgstr ""
+
+#. TRANS: The format used to display the weekday and date (example: Tuesday 10/21/2008)
+#. We recommend to use the same font size as for the time display.
+#. See http://docs.python.org/lib/module-time.html for
+#. available strftime formats.
+#: clock.py:112
+#, no-python-format
+msgctxt "Write Date"
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans 20\"><span foreground=\"#B20008\">"
+"%A</span>, <span foreground=\"#5E008C\">%m</span>/<span foreground=\"#B20008"
+"\">%d</span>/<span foreground=\"#9A5200\">%Y</span></span></markup>"
+msgstr ""
+
+#: clock.py:166
+msgctxt "Toolbar"
+msgid "Simple Clock"
+msgstr ""
+
+#: clock.py:170
+msgctxt "Toolbar"
+msgid "Nice Clock"
+msgstr ""
+
+#: clock.py:174
+msgctxt "Toolbar"
+msgid "Digital Clock"
+msgstr ""
+
+#: clock.py:186
+msgctxt "Toolbar"
+msgid "Display time in full letters"
+msgstr ""
+
+#: clock.py:192
+msgctxt "Toolbar"
+msgid "Display weekday and date"
+msgstr ""
+
+#: clock.py:203
+msgctxt "Toolbar"
+msgid "Talking clock"
+msgstr ""
+
+#. Add the toolbar to the activity menu
+#: clock.py:208
+msgctxt "Toolbar"
+msgid "Clock"
+msgstr ""
+
+#. TRANS: The format used to display the time for digital clock
+#. You can add AM/PM indicator or use 12/24 format, for example "%I:%M:%S %p".
+#. See http://docs.python.org/lib/module-time.html for
+#. available strftime formats
+#. If the display of the time is moving horizontally, it means that the glyphs
+#. of the digits used in the font don't have the same width. Try to use a
+#. Monospace font.
+#: clock.py:527
+#, no-python-format
+msgctxt "Digital Clock"
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans,Monospace Bold 48\"><span "
+"foreground=\"#005FE4\">%I</span>:<span foreground=\"#00B20D\">%M</span>:"
+"<span foreground=\"#E6000A\">%S</span>%p</span></markup>"
+msgstr ""
+
+#. TRANS: The format of the font used to print hour numbers, from 1 to 12.
+#: clock.py:636
+#, python-format
+msgctxt "Hour Number"
+msgid "<markup><span lang=\"en\" font_desc=\"Sans Bold 20\">%d</span></markup>"
+msgstr ""
+
+#. TRANS: The rules to print the time in the localized language.
+#.
+#. Example syntax:
+#. time(h, 15) => a quarter to hour(h) am_pm(h) |
+#. The left hand side of the rule defines a pattern with a variable 'h' and a
+#. value '15'.
+#. The right hand side, when applied, will use the text "a quarter to " and call
+#. the first rule matching hour(h) after substituting the variable 'h' by its value,
+#. and call the rule matching am_pm(h).
+#. Internal spaces are significant on the right side of a rule. In calls, all
+#. arguments which are not numbers are considered to be variables. The rule parser
+#. is very simple and will let many syntax errors go ignored.
+#.
+#. A rule ends with the character '|'.
+#. The character '_' is a anonymous variable.
+#. The character '#' can be used to concatenate two text fragments. For instance:
+#. plural(1) => |
+#. plural(_) => s |
+#. hour(h) => number(h) hour#plural(h) |
+#. Use '\#' to use a # character, for instance in a pango color
+#. tag like <span foreground="\#FF0055">
+#.
+#. You can put range conditions on firing a rule, with the syntax [var1 < var2] or
+#. [var1 < var2 < var3]. For instance:
+#. hours(h) [h < 12] => in the morning |
+#. hours(h) [12 < h < 18] => in the afternoon |
+#. hours(_) => in the night |
+#.
+#. These rules will be called with the root pattern "time(hour, minute)", with the
+#. variable 'hour' bound to the current hour and the variable 'minute' to the
+#. current minute.
+#. Order of rules is important. Rules are tried from first to last. So most precise
+#. rule must be placed first in the list.
+#.
+#. You can validate your set of rules by running the command line:
+#. python timewriter.py
+#.
+#. You should use pango markup to respect the same colors as for the clock hands.
+#. Look at the README file from the activity for explanations on how to create
+#. rules.
+#: timewriter.py:204
+msgid "time(h, m) => What Time Is It?"
+msgstr ""
+
+#. TRANS: The language pitch (range [0 - 99], default 50 for English)
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:29
+msgctxt "espeak-pitch"
+msgid "50"
+msgstr ""
+
+#. TRANS: The diction speed, in average words per minute (range [80 - 390], default 170 for English).
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:36
+msgctxt "espeak-speed"
+msgid "170"
+msgstr ""
+
+#. TRANS: The pause duration between words, in units of 10 ms.
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:43
+msgctxt "espeak-wgap"
+msgid "0"
+msgstr ""
+
+#. TRANS: The language and voice variant
+#. Look at http://espeak.sourceforge.net/commands.html for details, and
+#. http://espeak.sourceforge.net/languages.html to see if your language is supported.
+#: speaker.py:51
+msgctxt "espeak-voice"
+msgid "en"
+msgstr ""

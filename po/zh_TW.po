@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-02 00:32-0400\n"
+"PO-Revision-Date: 2012-06-13 09:48+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+#: clock.py:239
+msgid "Clock"
+msgstr "小時鐘"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid ""
+"Do you know the time? Now you do! Check out all the different ways you can "
+"make your clock look too!"
+msgstr ""
+
+#. TRANS: Title of the activity
+#: clock.py:128
+msgid "What Time Is It?"
+msgstr "小時鐘"
+
+#. TRANS: The format used when writing the time in full
+#. letters.  You must take care to use a font size large enough
+#. so that kids can read it easily, but also small enough so
+#. that all times combination fit on the screen, even when the
+#. screen is rotated.  Pango markup:
+#. http://www.pygtk.org/docs/pygtk/pango-markup-language.html
+#: clock.py:136
+#, python-format
+msgid "<markup><span lang=\"en\" font_desc=\"Sans 20\">%s</span></markup>"
+msgstr "<markup><span lang=\"en\" font_desc=\"Sans 20\">%s</span></markup>"
+
+#. TRANS: The format used to display the weekday and date
+#. (example: Tuesday 10/21/2008) We recommend to use the same
+#. font size as for the time display.  See
+#. http://docs.python.org/lib/module-time.html for available
+#: clock.py:144
+#, no-python-format
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans 20\"><span foreground=\"#B20008\">"
+"%A</span>, <span foreground=\"#5E008C\">%m</span>/<span foreground=\"#B20008"
+"\">%d</span>/<span foreground=\"#9A5200\">%Y</span></span></markup>"
+msgstr ""
+"<markup><span lang=\"en\" font_desc=\"Sans 20\"><span foreground=\"#B20008\">%"
+"A</span>, <span foreground=\"#5E008C\">%m</span>/<span foreground=\"#B20008\">%"
+"d</span>/<span foreground=\"#9A5200\">%Y</span></span></markup>"
+
+#: clock.py:270
+msgid "Simple Clock"
+msgstr "精簡時鐘"
+
+#: clock.py:276
+msgid "Nice Clock"
+msgstr "典雅時鐘"
+
+#: clock.py:282
+#, no-python-format
+msgid "Digital Clock"
+msgstr "數位時鐘"
+
+#: clock.py:296
+msgid "Display time in full letters"
+msgstr "以文字顯示時間"
+
+#: clock.py:302
+msgid "Display weekday and date"
+msgstr "顯示日期"
+
+#: clock.py:313
+msgid "Talking clock"
+msgstr "語音時鐘"
+
+#: clock.py:319
+msgid "Grab the hands"
+msgstr ""
+
+#. TRANS: The format used to display the time for digital clock
+#. You can add AM/PM indicator or use 12/24 format, for example
+#. "%I:%M:%S %p".  See
+#. http://docs.python.org/lib/module-time.html for available
+#. strftime formats If the display of the time is moving
+#. horizontally, it means that the glyphs of the digits used in
+#. the font don't have the same width. Try to use a Monospace
+#: clock.py:751
+#, no-python-format
+#, no-python-format, fuzzy
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans,Monospace Bold 96\"><span "
+"foreground=\"#005FE4\">%I</span>:<span foreground=\"#00B20D\">%M</span>:"
+"<span foreground=\"#E6000A\">%S</span>%p</span></markup>"
+msgstr ""
+"<markup><span lang=\"en\" font_desc=\"Sans,Monospace Bold 48\"><span "
+"foreground=\"#005FE4\">%I</span>:<span foreground=\"#00B20D\">%M</span>:<span "
+"foreground=\"#E6000A\">%S</span>%p</span></markup>"
+
+#: clock.py:855
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span foreground=\"white"
+"\" background=\"black\"> AM </span><span foreground=\"lightgray\"> PM </"
+"span></span></markup>"
+msgstr ""
+
+#: clock.py:859
+msgid ""
+"<markup><span lang=\"en\" font_desc=\"Sans Bold 28\"><span foreground="
+"\"lightgray\"> AM </span><span foreground=\"white\" background=\"black\"> PM "
+"</span></span></markup>"
+msgstr ""
+
+#. TRANS: The format of the font used to print hour
+#. numbers, from 1 to 12.
+#: clock.py:925
+#, python-format
+#, python-format, fuzzy
+msgid "<markup><span lang=\"en\" font_desc=\"Sans Bold 40\">%d</span></markup>"
+msgstr "<markup><span lang=\"en\" font_desc=\"Sans Bold 20\">%d</span></markup>"
+
+#. TRANS: The language pitch (range [0 - 99], default 50 for English)
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:30
+msgid "50"
+msgstr "50"
+
+#. TRANS: The diction speed, in average words per minute (range [80 - 390],
+#. default 170 for English).
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:38
+msgid "170"
+msgstr "170"
+
+#. TRANS: The pause duration between words, in units of 10 ms.
+#. Look at http://espeak.sourceforge.net/commands.html for details
+#: speaker.py:45
+msgid "0"
+msgstr "0"
+
+#. TRANS: The language and voice variant
+#. Look at http://espeak.sourceforge.net/commands.html for details, and
+#. http://espeak.sourceforge.net/languages.html to see if your language is supported.
+#: speaker.py:53
+msgid "en"
+msgstr "zh"
+
+# This string should look something like this English template, but with the words "o'clock" and the words after the arrows translated.  Do not translate min(1), hour(1), etc., those are internal names.  See Spanish string for another example.
+# http://translate.sugarlabs.org/es/honey/clock.po?item=12&view_mode=translate
+#. TRANS: The rules to print the time in the localized language.
+#.
+#. Example syntax:
+#. time(h, 15) => a quarter to hour(h) am_pm(h) |
+#. The left hand side of the rule defines a pattern with a variable 'h' and a
+#. value '15'.
+#. The right hand side, when applied, will use the text "a quarter to " and call
+#. the first rule matching hour(h) after substituting the variable 'h' by its value,
+#. and call the rule matching am_pm(h).
+#. Internal spaces are significant on the right side of a rule. In calls, all
+#. arguments which are not numbers are considered to be variables. The rule parser
+#. is very simple and will let many syntax errors go ignored.
+#.
+#. A rule ends with the character '|'.
+#. The character '_' is a anonymous variable.
+#. The character '#' can be used to concatenate two text fragments. For instance:
+#. plural(1) => |
+#. plural(_) => s |
+#. hour(h) => number(h) hour#plural(h) |
+#. Use '\#' to use a # character, for instance in a pango color
+#. tag like <span foreground="\#FF0055">
+#.
+#. You can put range conditions on firing a rule, with the syntax [var1 < var2] or
+#. [var1 < var2 < var3]. For instance:
+#. hours(h) [h < 12] => in the morning |
+#. hours(h) [12 < h < 18] => in the afternoon |
+#. hours(_) => in the night |
+#.
+#. These rules will be called with the root pattern "time(hour, minute)", with the
+#. variable 'hour' bound to the current hour and the variable 'minute' to the
+#. current minute.
+#. Order of rules is important. Rules are tried from first to last. So most precise
+#. rule must be placed first in the list.
+#.
+#. You can validate your set of rules by running the command line:
+#. python timewriter.py LANG
+#.
+#. You should use pango markup to respect the same colors as for the clock hands.
+#. Look at the README file from the activity for explanations on how to create
+#. rules.
+#: timewriter.py:204
+msgid "time(h, m) => What Time Is It?"
+msgstr ""
+"        time(12, 0) => <span foreground=\"\\#005FE4\">hour(12)</span> |\n"
+"        time(0, 0) => <span foreground=\"\\#005FE4\">hour(0)</span> |\n"
+"        time(h, 0) => am_pm(h) <span foreground=\"\\#005FE4\">hour(h)</span> 點整 "
+"|\n"
+"        time(h, m) [m < 31] => am_pm(h) <span "
+"foreground=\"\\#005FE4\">hour(h)</span> 點 <span "
+"foreground=\"\\#00B20D\">min(m)</span> |\n"
+"        time(h, m) [44 < m] => 還有 <span foreground=\"\\#00B20D\">min(m)</span> "
+"鐘到 am_pm(h) <span foreground=\"\\#005FE4\">hour1(h)</span> 點 |\n"
+"        min(1) => 一 分 |\n"
+"        min(2) => 兩 分 |\n"
+"        min(3) => 三 分 |\n"
+"        min(4) => 四 分 |\n"
+"        min(5) => 五 分 |\n"
+"        min(6) => 六 分 |\n"
+"        min(7) => 七 分 |\n"
+"        min(8) => 八 分 |\n"
+"        min(9) => 九 分 |\n"
+"        min(10) => 十 分 |\n"
+"        min(11) => 十一 分 |\n"
+"        min(12) => 十二 分 |\n"
+"        min(13) => 十三 分 |\n"
+"        min(14) => 十四 分 |\n"
+"        min(15) => 一刻鐘 |\n"
+"        min(16) => 十六 分 |\n"
+"        min(17) => 十七 分 |\n"
+"        min(18) => 十八 分 |\n"
+"        min(19) => 十九 分 |\n"
+"        min(20) => 二十 分 |\n"
+"        min(21) => 二十一 分 |\n"
+"        min(22) => 二十二 分 |\n"
+"        min(23) => 二十三 分 |\n"
+"        min(24) => 二十四 分 |\n"
+"        min(25) => 二十五 分 |\n"
+"        min(26) => 二十六 分 |\n"
+"        min(27) => 二十七 分 |\n"
+"        min(28) => 二十八 分 |\n"
+"        min(29) => 二十九 分 |\n"
+"        min(30) => 半 |\n"
+"        min(31) => 三十一 分 |\n"
+"        min(32) => 三十二 分 |\n"
+"        min(33) => 三十三 分 |\n"
+"        min(34) => 三十四 分 |\n"
+"        min(35) => 三十五 分 |\n"
+"        min(36) => 三十六 分 |\n"
+"        min(37) => 三十七 分 |\n"
+"        min(38) => 三十八 分 |\n"
+"        min(39) => 三十九 分 |\n"
+"        min(40) => 四十 分 |\n"
+"        min(41) => 四十一 分 |\n"
+"        min(42) => 四十二 分 |\n"
+"        min(43) => 四十三 分 |\n"
+"        min(44) => 四十四 分 |\n"
+"        min(45) => 一刻鐘 |\n"
+"        min(46) => 十四 分 |\n"
+"        min(47) => 十三 分 |\n"
+"        min(48) => 十二 分 |\n"
+"        min(49) => 十一 分 |\n"
+"        min(50) => 十 分 |\n"
+"        min(51) => 九 分 |\n"
+"        min(52) => 八 分 |\n"
+"        min(53) => 七 分 |\n"
+"        min(54) => 六 分 |\n"
+"        min(55) => 五 分 |\n"
+"        min(56) => 四 分 |\n"
+"        min(57) => 三 分 |\n"
+"        min(58) => 二 分 |\n"
+"        min(59) => 一 分 |\n"
+"        min(60) => 六十 分 |\n"
+"        hour(0) => 午夜零 |\n"
+"        hour(1) => 一 |\n"
+"        hour(2) => 二 |\n"
+"        hour(3) => 三 |\n"
+"        hour(4) => 四 |\n"
+"        hour(5) => 五 |\n"
+"        hour(6) => 六 |\n"
+"        hour(7) => 七 |\n"
+"        hour(8) => 八 |\n"
+"        hour(9) => 九 |\n"
+"        hour(10) => 十 |\n"
+"        hour(11) => 十一 |\n"
+"        hour(12) => 正午十二 |\n"
+"        hour(13) => 一 |\n"
+"        hour(14) => 二 |\n"
+"        hour(15) => 三 |\n"
+"        hour(16) => 四 |\n"
+"        hour(17) => 五 |\n"
+"        hour(18) => 六 |\n"
+"        hour(19) => 七 |\n"
+"        hour(20) => 八 |\n"
+"        hour(21) => 九 |\n"
+"        hour(22) => 十 |\n"
+"        hour(23) => 十一 |\n"
+"        hour1(0) => 一 |\n"
+"        hour1(1) => 二 |\n"
+"        hour1(2) => 三 |\n"
+"        hour1(3) => 四 |\n"
+"        hour1(4) => 五 |\n"
+"        hour1(5) => 六 |\n"
+"        hour1(6) => 七 |\n"
+"        hour1(7) => 八 |\n"
+"        hour1(8) => 九 |\n"
+"        hour1(9) => 十 |\n"
+"        hour1(10) => 十一 |\n"
+"        hour1(11) => 十二 |\n"
+"        hour1(12) => 一 |\n"
+"        hour1(13) => 二 |\n"
+"        hour1(14) => 三 |\n"
+"        hour1(15) => 四 |\n"
+"        hour1(16) => 五 |\n"
+"        hour1(17) => 六 |\n"
+"        hour1(18) => 七 |\n"
+"        hour1(19) => 八 |\n"
+"        hour1(20) => 九 |\n"
+"        hour1(21) => 十 |\n"
+"        hour1(22) => 十一 |\n"
+"        hour1(23) => 零 |\n"
+"        am_pm(h) [ h < 12] => 上午 |\n"
+"        am_pm(_) => 下午"
+
+#~ msgid "Activity"
+#~ msgstr "活動"
+
+#~ msgid "Write Time"
+#~ msgstr "寫出時間"
+
+#, no-python-format
+#~ msgid "Write Date"
+#~ msgstr "寫出日期"
+
+#~ msgid "Toolbar"
+#~ msgstr "工具列"
+
+#~ msgid "Hour Number"
+#~ msgstr "小時數字"
+
+#~ msgid "espeak-pitch"
+#~ msgstr "50"
+
+#~ msgid "espeak-speed"
+#~ msgstr "170"
+
+#~ msgid "espeak-wgap"
+#~ msgstr "1"
+
+#~ msgid "espeak-voice"
+#~ msgstr "zh"
